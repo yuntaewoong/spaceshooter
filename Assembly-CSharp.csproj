@@ -11,7 +11,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{FC16A34E-6C5B-C3A0-21CE-5D2DD0ADE5AF}</ProjectGuid>
+    <ProjectGuid>{A4D7B93E-2024-7CC3-A11F-24CA182BFB09}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,16 +53,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\_Complete-Game\Scripts\Done_BGScroller.cs" />
-    <Compile Include="Assets\_Complete-Game\Scripts\Done_DestroyByBoundary.cs" />
-    <Compile Include="Assets\_Complete-Game\Scripts\Done_DestroyByContact.cs" />
-    <Compile Include="Assets\_Complete-Game\Scripts\Done_DestroyByTime.cs" />
-    <Compile Include="Assets\_Complete-Game\Scripts\Done_EvasiveManeuver.cs" />
-    <Compile Include="Assets\_Complete-Game\Scripts\Done_GameController.cs" />
-    <Compile Include="Assets\_Complete-Game\Scripts\Done_Mover.cs" />
-    <Compile Include="Assets\_Complete-Game\Scripts\Done_PlayerController.cs" />
-    <Compile Include="Assets\_Complete-Game\Scripts\Done_RandomRotator.cs" />
-    <Compile Include="Assets\_Complete-Game\Scripts\Done_WeaponController.cs" />
     <Compile Include="Assets\_Scripts\DestroyByBoundary.cs" />
     <Compile Include="Assets\_Scripts\DestroyByContact.cs" />
     <Compile Include="Assets\_Scripts\DestroyByTime.cs" />
@@ -71,11 +61,11 @@
     <Compile Include="Assets\_Scripts\PlayerController.cs" />
     <Compile Include="Assets\_Scripts\RandomRotator.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/RETURN/Desktop/spaceshooter 파일들/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/RETURN/Desktop/spaceshooter 파일들/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/RETURN/Documents/GitHub/spaceshooter/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>C:/Users/RETURN/Documents/GitHub/spaceshooter/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/IDE/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
